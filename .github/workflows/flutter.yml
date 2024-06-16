@@ -1,0 +1,35 @@
+name: Flutter CI
+
+on:
+  push:
+    branches: [master]
+  pull_request_target:
+    types: [assigned, opened, synchronize, reopened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: "12.x"
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '1.22.x'
+          channel: "stable" # or: 'dev' or 'beta'
+      
+      - run: flutter pub get  
+      - name: Build
+        run: |
+          mkdir $HOME/private
+          gpg --quiet --batch --yes --decrypt --passphrase="$FIREBASE_SECRET" \
+          --output $HOME/private/services.tar services.tar.gpg
+          tar xvf $HOME/private/services.tar
+          touch .env
+          flutter build appbundle --verbose
+        env:
+          FIREBASE_SECRET: ${{ secrets.FIREBASE_SECRET }}
+          GOOGLE_MAPS_KEY: ${{ secrets.GOOGLE_MAPS_KEY }}
+          FCM_KEY: ${{ secrets.FCM_KEY }}
