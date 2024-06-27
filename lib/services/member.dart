@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'dart:async';
 
-import 'package:roboclub_flutter/models/member.dart';
+import 'package:roboclub_flutter_app/models/member.dart';
 
 final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 

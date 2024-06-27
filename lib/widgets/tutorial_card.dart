@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../helper/dimensions.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
 
 class TutorialCard extends StatelessWidget {
   final String title;

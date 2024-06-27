@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
-import 'package:roboclub_flutter/screens/profile.dart';
-import 'package:roboclub_flutter/services/auth.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/screens/profile.dart';
+import 'package:roboclub_flutter_app/services/auth.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
 import '../helper/dimensions.dart';
 
 class AdminScreen extends StatefulWidget {

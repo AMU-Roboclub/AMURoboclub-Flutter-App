@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
-import 'package:roboclub_flutter/forms/project.dart';
-import 'package:roboclub_flutter/models/project.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
-import 'package:roboclub_flutter/services/project.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/comp_projects_card.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
-import 'package:roboclub_flutter/widgets/ongoing_projects_card.dart';
+import 'package:roboclub_flutter_app/forms/project.dart';
+import 'package:roboclub_flutter_app/models/project.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/services/project.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/comp_projects_card.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/widgets/ongoing_projects_card.dart';
 import '../helper/dimensions.dart';
 
 class ProjectScreen extends StatefulWidget {
@@ -104,11 +104,8 @@ class _ProjectScreenState extends State<ProjectScreen> {
                         elevation: 8.0,
                         child: TextButton(
                           style: TextButton.styleFrom(
-                             foregroundColor: !_ongoingPressed
-                              ? Theme.of(context).primaryColor
-                              : Colors.black, foregroundColor:
-                              !_ongoingPressed ? Colors.white : Colors.black,
-
+                            foregroundColor:
+                                !_ongoingPressed ? Colors.white : Colors.black,
                           ),
                           child: Container(
                             padding: EdgeInsets.all(10),
@@ -120,7 +117,6 @@ class _ProjectScreenState extends State<ProjectScreen> {
                               ),
                             ),
                           ),
-                         
                           onPressed: () => {
                             setState(() {
                               _ongoingPressed = true;
@@ -137,12 +133,10 @@ class _ProjectScreenState extends State<ProjectScreen> {
                         borderRadius: BorderRadius.all(Radius.circular(50)),
                         elevation: 8.0,
                         child: TextButton(
-                         style: TextButton.styleFrom(
-                          foregroundColor: _ongoingPressed
-                              ? Theme.of(context).primaryColor
-                              : Colors.white, foregroundColor:
-                              _ongoingPressed ? Colors.white : Colors.black,
-                         ),
+                          style: TextButton.styleFrom(
+                            foregroundColor:
+                                !_ongoingPressed ? Colors.white : Colors.black,
+                          ),
                           child: Container(
                             padding: EdgeInsets.all(10),
                             width: vpW * 0.3,
@@ -153,7 +147,6 @@ class _ProjectScreenState extends State<ProjectScreen> {
                               ),
                             ),
                           ),
-                          
                           onPressed: () => {
                             setState(() {
                               _ongoingPressed = false;

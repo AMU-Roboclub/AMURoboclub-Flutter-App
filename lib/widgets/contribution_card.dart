@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:roboclub_flutter/models/contributor.dart';
+import 'package:roboclub_flutter_app/models/contributor.dart';
 import '../helper/dimensions.dart';
 
 // ignore: must_be_immutable

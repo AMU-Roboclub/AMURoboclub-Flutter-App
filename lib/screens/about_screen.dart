@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
-import 'package:roboclub_flutter/screens/map_screen.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/screens/map_screen.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
 import '../widgets/developer_card.dart';
 import '../helper/dimensions.dart';
 import 'package:url_launcher/url_launcher.dart';

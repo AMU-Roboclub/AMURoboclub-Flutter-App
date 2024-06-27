@@ -8,17 +8,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
-import 'package:roboclub_flutter/configs/remoteConfig.dart';
-import 'package:roboclub_flutter/forms/membership.dart';
-import 'package:roboclub_flutter/forms/project.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/helper/pdf_manager.dart';
-import 'package:roboclub_flutter/models/member.dart';
-import 'package:roboclub_flutter/services/email.dart';
-import 'package:roboclub_flutter/services/member.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
-import 'package:roboclub_flutter/widgets/member_card.dart';
+import 'package:roboclub_flutter_app/configs/remoteConfig.dart';
+import 'package:roboclub_flutter_app/forms/membership.dart';
+import 'package:roboclub_flutter_app/forms/project.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/helper/pdf_manager.dart';
+import 'package:roboclub_flutter_app/models/member.dart';
+import 'package:roboclub_flutter_app/services/email.dart';
+import 'package:roboclub_flutter_app/services/member.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/widgets/member_card.dart';
 import 'package:string_encryption/string_encryption.dart';
 
 class RegMembersScreen extends StatefulWidget {

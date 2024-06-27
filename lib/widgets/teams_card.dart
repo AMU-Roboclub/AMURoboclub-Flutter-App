@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/models/team.dart';
-import 'package:roboclub_flutter/screens/team2_screen.dart';
+import 'package:roboclub_flutter_app/models/team.dart';
+import 'package:roboclub_flutter_app/screens/team2_screen.dart';
 import '../helper/dimensions.dart';
 
 class TeamCard extends StatelessWidget {

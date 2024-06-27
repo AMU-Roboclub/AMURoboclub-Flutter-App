@@ -5,13 +5,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/forms/project.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/models/project.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/forms/project.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/models/project.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ProjectInfo extends StatefulWidget {

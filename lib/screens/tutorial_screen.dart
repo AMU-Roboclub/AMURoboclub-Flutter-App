@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/screens/playlist.dart';
-import 'package:roboclub_flutter/services/tutorial.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
-import 'package:roboclub_flutter/widgets/tutorial_card.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/screens/playlist.dart';
+import 'package:roboclub_flutter_app/services/tutorial.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/widgets/tutorial_card.dart';
 
 class TutorialScreen extends StatefulWidget {
   @override

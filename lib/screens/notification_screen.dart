@@ -2,13 +2,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/forms/notifications.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/models/notifications.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/notification_card.dart';
+import 'package:roboclub_flutter_app/forms/notifications.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/models/notifications.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/notification_card.dart';
 
 class NotificationScreen extends StatefulWidget {
   @override

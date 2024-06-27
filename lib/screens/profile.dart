@@ -4,17 +4,17 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/forms/contribution.dart';
-import 'package:roboclub_flutter/forms/event.dart';
-import 'package:roboclub_flutter/forms/notifications.dart';
-import 'package:roboclub_flutter/forms/profile.dart';
-import 'package:roboclub_flutter/forms/project.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/screens/admin_screen.dart';
-import 'package:roboclub_flutter/services/auth.dart';
+import 'package:roboclub_flutter_app/forms/contribution.dart';
+import 'package:roboclub_flutter_app/forms/event.dart';
+import 'package:roboclub_flutter_app/forms/notifications.dart';
+import 'package:roboclub_flutter_app/forms/profile.dart';
+import 'package:roboclub_flutter_app/forms/project.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/screens/admin_screen.dart';
+import 'package:roboclub_flutter_app/services/auth.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 

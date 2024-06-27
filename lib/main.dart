@@ -5,17 +5,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart' as DotEnv;
 
 import 'package:flutter/services.dart';
-// import 'package:roboclub_flutter/configs/remoteConfig.dart';
-import 'package:roboclub_flutter/helper/themes.dart';
+// import 'package:roboclub_flutter_app/configs/remoteConfig.dart';
+import 'package:roboclub_flutter_app/helper/themes.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/theme_provider.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
-import 'package:roboclub_flutter/screens/event_screen.dart';
-import 'package:roboclub_flutter/screens/onboarding_screen.dart';
-import 'package:roboclub_flutter/services/auth.dart';
-// import 'package:roboclub_flutter/services/notification.dart';
-import 'package:roboclub_flutter/services/shared_prefs.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/theme_provider.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/screens/event_screen.dart';
+import 'package:roboclub_flutter_app/screens/onboarding_screen.dart';
+import 'package:roboclub_flutter_app/services/auth.dart';
+// import 'package:roboclub_flutter_app/services/notification.dart';
+import 'package:roboclub_flutter_app/services/shared_prefs.dart';
 
 void main() async {
   // debugPaintSizeEnabled = true;

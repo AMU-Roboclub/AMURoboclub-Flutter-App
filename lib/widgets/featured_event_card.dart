@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/models/event.dart';
-import 'package:roboclub_flutter/screens/show_event_screen.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/models/event.dart';
+import 'package:roboclub_flutter_app/screens/show_event_screen.dart';
 
 class FeaturedEventCard extends StatefulWidget {
   final Event featuredEvent;

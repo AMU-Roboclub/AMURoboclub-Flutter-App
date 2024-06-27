@@ -1,4 +1,4 @@
-package amuroboclub.roboclub_flutter
+package amuroboclub.roboclub_flutter_app
 
 import io.flutter.embedding.android.FlutterActivity
 

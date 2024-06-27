@@ -7,7 +7,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import "package:flutter/material.dart";
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:roboclub_flutter/models/project.dart';
+import 'package:roboclub_flutter_app/models/project.dart';
 import '../helper/dimensions.dart';
 import '../widgets/appBar.dart';
 import '../services/project.dart';

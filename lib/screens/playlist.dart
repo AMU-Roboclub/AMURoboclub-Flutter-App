@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/screens/youtubeplayer.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/screens/youtubeplayer.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class PlaylistScreen extends StatefulWidget {

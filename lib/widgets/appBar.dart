@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/screens/faqs.dart';
-import 'package:roboclub_flutter/screens/notification_screen.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/screens/faqs.dart';
+import 'package:roboclub_flutter_app/screens/notification_screen.dart';
 
 AppBar appBar(context,
     {required String strTitle,

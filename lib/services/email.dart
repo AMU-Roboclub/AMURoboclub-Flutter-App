@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'package:roboclub_flutter/configs/remoteConfig.dart';
+import 'package:roboclub_flutter_app/configs/remoteConfig.dart';
 import 'package:sendgrid_mailer/sendgrid_mailer.dart';
 
 class EmailService {

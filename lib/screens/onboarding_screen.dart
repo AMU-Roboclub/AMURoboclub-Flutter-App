@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/screens/event_screen.dart';
-import 'package:roboclub_flutter/services/shared_prefs.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/screens/event_screen.dart';
+import 'package:roboclub_flutter_app/services/shared_prefs.dart';
 // import 'package:flutter_onboarding_ui/utilities/styles.dart';
 
 class OnboardingScreen extends StatefulWidget {

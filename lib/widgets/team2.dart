@@ -3,10 +3,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/forms/profile.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/forms/profile.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
 import '../helper/dimensions.dart';
 
 class Team2Card extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../helper/dimensions.dart';
 

@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:roboclub_flutter/models/contributor.dart';
+import 'package:roboclub_flutter_app/models/contributor.dart';
 
 import 'dart:async';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/services/faqsData.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/services/faqsData.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
 
 class FAQPage extends StatelessWidget {
   @override

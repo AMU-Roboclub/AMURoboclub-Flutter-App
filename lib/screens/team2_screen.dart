@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/screens/profile.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
-import 'package:roboclub_flutter/widgets/team2.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/screens/profile.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/widgets/team2.dart';
 import '../helper/dimensions.dart';
 
 class Team2Screen extends StatefulWidget {

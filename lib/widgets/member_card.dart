@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/configs/remoteConfig.dart';
-import 'package:roboclub_flutter/models/member.dart';
+import 'package:roboclub_flutter_app/configs/remoteConfig.dart';
+import 'package:roboclub_flutter_app/models/member.dart';
 import '../helper/dimensions.dart';
 
 class MemberCard extends StatefulWidget {

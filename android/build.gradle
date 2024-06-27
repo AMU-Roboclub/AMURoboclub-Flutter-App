@@ -41,3 +41,45 @@ subprojects {
         }
     }
 }
+
+// buildscript {
+//     repositories {
+//         google()
+//         jcenter()
+//     }
+//     dependencies {
+//         classpath 'com.android.tools.build:gradle:7.1.2'
+//         classpath 'com.google.gms:google-services:4.3.4'
+//         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10"
+//     }
+// }
+
+// plugins {
+//     id 'com.android.application' // Apply the Android application plugin
+//     id("com.google.gms.google-services") version "4.4.2" apply false // Apply the Google services plugin
+//     id 'kotlin-android' // Apply the Kotlin plugin
+    
+// }
+
+// allprojects {
+//     repositories {
+//         google()
+//         jcenter()
+//     }
+//     buildDir = "../build/${project.name}"
+// }
+
+// tasks.register("clean", Delete) {
+//     delete rootProject.buildDir
+// }
+
+// subprojects {
+//     project.configurations.all {
+//         resolutionStrategy.eachDependency { details ->
+//             if (details.requested.group == 'com.android.support'
+//                     && !details.requested.name.contains('multidex')) {
+//                 details.useVersion "26.1.0"
+//             }
+//         }
+//     }
+// }

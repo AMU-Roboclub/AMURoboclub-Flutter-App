@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:roboclub_flutter/models/team.dart';
+import 'package:roboclub_flutter_app/models/team.dart';
 
 final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 

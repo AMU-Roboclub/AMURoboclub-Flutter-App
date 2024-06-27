@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/models/team.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
-import 'package:roboclub_flutter/widgets/teams_card.dart';
+import 'package:roboclub_flutter_app/models/team.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/widgets/teams_card.dart';
 import '../helper/dimensions.dart';
 
 class TeamScreen extends StatefulWidget {

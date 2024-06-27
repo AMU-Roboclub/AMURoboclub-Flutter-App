@@ -7,9 +7,9 @@ import 'package:firebase_storage/firebase_storage.dart';
 import "package:flutter/material.dart";
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/helper/custom_icons.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/helper/custom_icons.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
 import '../helper/dimensions.dart';
 import '../widgets/appBar.dart';
 

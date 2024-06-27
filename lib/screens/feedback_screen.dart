@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-import 'package:roboclub_flutter/services/feedback.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/services/feedback.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FeedbackScreen extends StatefulWidget {

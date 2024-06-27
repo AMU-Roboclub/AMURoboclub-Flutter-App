@@ -5,7 +5,7 @@ It is the nerve-centre of robotics enthusiasts who are curious and innovative an
 ## Community app
 <br><br>
   <img src="/screenshots/AMURoboclub.png" width="100%" height="505px">
-You can download the [APP](https://play.google.com/store/apps/details?id=amuroboclub.roboclub_flutter), or you can setup the flutter app using the mentioned steps: 
+You can download the [APP](https://play.google.com/store/apps/details?id=amuroboclub.roboclub_flutter_app), or you can setup the flutter app using the mentioned steps: 
 
 ### Getting Started
 

@@ -4,22 +4,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:roboclub_flutter/configs/remoteConfig.dart';
-import 'package:roboclub_flutter/forms/RegisteredForComponents.dart';
-import 'package:roboclub_flutter/forms/event.dart';
-import 'package:roboclub_flutter/forms/membership.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/models/event.dart';
-import 'package:roboclub_flutter/models/user.dart';
-import 'package:roboclub_flutter/provider/user_provider.dart';
-import 'package:roboclub_flutter/screens/notification_screen.dart';
-import 'package:roboclub_flutter/screens/reg_members_screen.dart';
-import 'package:roboclub_flutter/services/event.dart';
-import 'package:roboclub_flutter/services/shared_prefs.dart';
-import 'package:roboclub_flutter/widgets/appBar.dart';
-import 'package:roboclub_flutter/widgets/drawer.dart';
-import 'package:roboclub_flutter/widgets/event_card.dart';
-import 'package:roboclub_flutter/widgets/featured_event_card.dart';
+import 'package:roboclub_flutter_app/configs/remoteConfig.dart';
+import 'package:roboclub_flutter_app/forms/RegisteredForComponents.dart';
+import 'package:roboclub_flutter_app/forms/event.dart';
+import 'package:roboclub_flutter_app/forms/membership.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/models/event.dart';
+import 'package:roboclub_flutter_app/models/user.dart';
+import 'package:roboclub_flutter_app/provider/user_provider.dart';
+import 'package:roboclub_flutter_app/screens/notification_screen.dart';
+import 'package:roboclub_flutter_app/screens/reg_members_screen.dart';
+import 'package:roboclub_flutter_app/services/event.dart';
+import 'package:roboclub_flutter_app/services/shared_prefs.dart';
+import 'package:roboclub_flutter_app/widgets/appBar.dart';
+import 'package:roboclub_flutter_app/widgets/drawer.dart';
+import 'package:roboclub_flutter_app/widgets/event_card.dart';
+import 'package:roboclub_flutter_app/widgets/featured_event_card.dart';
 import 'package:skeleton_loader/skeleton_loader.dart';
 import 'package:url_launcher/url_launcher.dart';
 // import 'package:in_app_update/in_app_update.dart';
@@ -301,7 +301,7 @@ class _EventScreenState extends State<EventScreen> {
             TextButton(
               child: Text(btnLabel),
               onPressed: () => launch(
-                'https://play.google.com/store/apps/details?id=amuroboclub.roboclub_flutter',
+                'https://play.google.com/store/apps/details?id=amuroboclub.roboclub_flutter_app',
               ),
             ),
             TextButton(

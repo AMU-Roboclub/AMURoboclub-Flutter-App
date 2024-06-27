@@ -2,9 +2,9 @@
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:roboclub_flutter/helper/dimensions.dart';
-import 'package:roboclub_flutter/models/project.dart';
-import 'package:roboclub_flutter/screens/project_info.dart';
+import 'package:roboclub_flutter_app/helper/dimensions.dart';
+import 'package:roboclub_flutter_app/models/project.dart';
+import 'package:roboclub_flutter_app/screens/project_info.dart';
 
 class CompletedProjectCard extends StatefulWidget {
   final Project completedProject;
@@ -100,7 +100,7 @@ class _CompletedProjectCardState extends State<CompletedProjectCard> {
                             elevation: 8.0,
                             child: TextButton(
                               style: TextButton.styleFrom(
-                                foregroundColor: Color(0xFFFF9C01), onSurface: Colors.white,
+                                foregroundColor: Color(0xFFFF9C01), disabledForegroundColor: Colors.white.withOpacity(0.38),
                               ),
                               child: Container(
                                 width: vpW * 0.12,

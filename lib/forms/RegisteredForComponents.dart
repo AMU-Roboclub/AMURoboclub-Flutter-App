@@ -2,13 +2,13 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:roboclub_flutter/screens/componentsIssued_screen.dart';
-import 'package:roboclub_flutter/services/Components.dart';
-import 'package:roboclub_flutter/services/auth.dart';
+import 'package:roboclub_flutter_app/screens/componentsIssued_screen.dart';
+import 'package:roboclub_flutter_app/services/Components.dart';
+import 'package:roboclub_flutter_app/services/auth.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import "package:flutter/material.dart";
-import 'package:roboclub_flutter/services/email_components.dart';
+import 'package:roboclub_flutter_app/services/email_components.dart';
 import '../helper/dimensions.dart';
 import '../widgets/appBar.dart';
 
