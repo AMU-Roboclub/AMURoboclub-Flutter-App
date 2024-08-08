@@ -44,18 +44,18 @@ class _ContriCardState extends State<ContriCard> {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Flexible(
-                      flex: 1,
-                      child: CircleAvatar(
-                        radius: vpH * 0.028,
-                        backgroundColor: Colors.black,
-                        child: CircleAvatar(
-                          radius: vpH * 0.026,
-                          backgroundColor: Colors.white,
-                          backgroundImage: widget.contributor.representativeImg.isEmpty ? AssetImage('assets/img/money.png')
-                            : NetworkImage(widget.contributor.representativeImg) as ImageProvider,
-                        ),
-                      )),
+                  // Flexible(
+                  //     flex: 1,
+                  //     child: CircleAvatar(
+                  //       radius: vpH * 0.028,
+                  //       backgroundColor: Colors.black,
+                  //       child: CircleAvatar(
+                  //         radius: vpH * 0.026,
+                  //         backgroundColor: Colors.white,
+                  //         backgroundImage: widget.contributor.representativeImg.isEmpty ? AssetImage('assets/img/money.png')
+                  //           : NetworkImage(widget.contributor.representativeImg) as ImageProvider,
+                  //       ),
+                  //     )),
                   Flexible(
                     flex: 5,
                     fit: FlexFit.tight,
